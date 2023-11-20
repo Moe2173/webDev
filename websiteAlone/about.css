@@ -1,0 +1,77 @@
+.about { 
+    width: 100%;
+    height:45vh;
+    background-color: white;
+    margin-top: 50%;
+}
+
+.extraInfo { 
+    background-color: rgb(48, 134, 48);
+    width: 100%;
+    height: 25vh;
+
+}
+
+.font { 
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+.about h2 { 
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(48, 134, 48);
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 25%;
+    border-bottom: solid white 5px; 
+}
+
+.Navig { 
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(48, 134, 48);
+    font-size: 1.1em;
+    align-items: center;
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.para { 
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(48, 134, 48);
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.extraInfo h2 { 
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(244, 248, 244);
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 25%;
+    border-bottom: solid white 5px; 
+}
+ion-icon { 
+    font-size: 120px;
+    color: rgb(48, 134, 48);
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 75px;
+    left: 1em;
+    right: 1em
+}
+
