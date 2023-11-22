@@ -1,68 +1,35 @@
-.text { 
-    text-decoration: none; 
-    
+.assignments h2 { 
+    font-size: 65px;
+    color: rgb(78, 160, 78);
+    border-bottom: solid white 5px;
+    width: 22%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+
 }
 
+.box a{ 
+    width: 50px;
+    height:25px; 
+    background: transparent;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 1.5em;
+    color: black;
+    border-bottom: solid white 3px;
+    transition: .3s ease-in;
 
-a { 
-    color: black; 
-    transition-delay: .1s; 
 }
 
-a:hover { 
-    color:salmon; 
+.box a:hover{ 
+    border-bottom: solid rgb(78, 160, 78) 3px;
 }
 
-body { 
-    background-image: url(images/goodlambo.jpg);
-    background-size: 100% 100vh;
-    background-repeat: no-repeat;
-}
-
-
-.heading { 
-    font-size: 75px; 
-    width: 50%; 
+.links { 
+    margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
-    color: white; 
-    font-family: Consolas, monaco, monospace;
     display: flex;
-
-}
-
-.logo { 
-    display: flex;
-    box-sizing: border-box;
-    height:250px; 
-    width: 25%; 
-    margin-left: 100px;
-    margin-top: 50px;
-    flex-wrap: nowrap;
-
-}
-
-.logo img { 
-    height: 100%;
-    width: 100%; 
-}
-
-.container { 
-    width:50%; 
-    margin-left: auto;
-    margin-right: auto;
     justify-content: center;
-}
-
-.clickassignments { 
-    text-align: center;
-    font-size: 28px;
-    text-decoration: none; 
-    background-color: rgb(229, 229, 229);
-    width: 20%;
-    height: 5vh; 
-    padding: 10px;
-    margin: auto;
-    flex-wrap: nowrap;
-    display: flexbox;
 }

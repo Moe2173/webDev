@@ -1,0 +1,130 @@
+.heading { 
+    font-size: 50px;
+    color: white; 
+    text-align: center;
+    text-decoration:underline;
+}
+
+body { 
+    background: rgb(2, 110, 118);
+}
+
+.sub_body { 
+    background-color: rgb(121, 124, 124);
+}
+
+.border { 
+    background-color: aquamarine;
+    box-sizing: border-box;
+    display: inline-block; 
+    border: solid 15px darkslateblue; 
+    width: 40%;
+    height: 750px; 
+}
+ 
+.border img { 
+    height: 100%; 
+    width: 100%; 
+}
+
+.margin { 
+    
+    height: 800px; 
+    box-sizing: border-box;
+    width: 50%; 
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.margin img { 
+    height: 100%; 
+    width: 100%; 
+}
+.padding {
+    background-color: firebrick; 
+    width: 50%; 
+    height: 800px; 
+    box-sizing: border-box;
+    padding: 60px;
+
+}
+
+.padding img { 
+    height: 100%; 
+    width: 100%; 
+}
+
+.display { 
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+
+.content { 
+    width:50%; 
+    height:800px; 
+    padding: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 15px red; 
+    padding: 20px; 
+}
+
+.content img { 
+    width:100%; 
+    height:100%; 
+}
+
+.container { 
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card1 { 
+    height: 350px; 
+    width: 35%; 
+    border: solid 10px;
+    box-shadow: 
+    0 0 0 10px black,
+    0 0 0 15px white; 
+    border-style: double;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: inline-block; 
+    margin-left: 40px;
+}
+
+.card1 img { 
+    height: 100%; 
+    width: 100%; 
+    
+}
+
+.card2 { 
+    width: 55%; 
+    height: 350px; 
+    border: solid 10px; 
+    box-shadow: 
+    0 0 0 10px white,
+    0 0 0 15px black; 
+    box-sizing: border-box;
+    margin: 30px;
+    margin-left: 90px;
+    display: inline-block;
+}
+
+.card2 img { 
+    height: 100%; 
+    width: 100%; 
+}
+
+a  { 
+    color: white;
+}
+
+a:hover { 
+    color: red; 
+}
