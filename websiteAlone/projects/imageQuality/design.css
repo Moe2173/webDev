@@ -116,9 +116,11 @@ section {
     height: 100%; 
     padding: 10px;
     padding: 50px;
+    background: rgb(83, 81, 81);
+
 }
 
-.contain h2 { 
+.containCard h2 { 
     padding-bottom: 15px;
     font-size: 50px;
     font-family: sans-serif;
@@ -128,13 +130,42 @@ section {
     margin-left: auto;
     margin-right: auto;
     border-bottom: solid slategray 5px;
-    width: 25%; 
+    width: 22%; 
     height: 50px;
 }
+
+.imageSize h2 { 
+    padding-bottom: 15px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid slategray 5px;
+    width: 18%; 
+    height: 50px;
+}
+
+.speedTest h2 { 
+    padding-bottom: 15px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 1000;
+    color: slategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid slategray 5px;
+    width: 18%; 
+    height: 50px;
+}
+
 .card { 
     margin: 20px;
     width: 45%; 
-    background: rgb(83, 81, 81);
+    background: white;
     height: 38%; 
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -143,4 +174,25 @@ section {
     box-shadow: 15px 15px 5px;
     display: inline-block;
     box-sizing: border-box;
+}
+
+.text { 
+    font-size: 1.5em;
+    color: white;
+    font-family: monospace;
+    color: rgb(83, 81, 81);
+    font-weight: 1000;
+    text-align: center; 
+
+}
+
+.cImg { 
+   display: flex;
+   justify-content: center;
+}
+.cImg img { 
+   margin-bottom: 0px;
+   max-width:60%;
+   height: 100%;
+   margin: 0;
 }
