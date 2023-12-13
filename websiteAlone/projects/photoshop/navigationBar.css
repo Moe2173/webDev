@@ -22,6 +22,9 @@ header, footer  {
     font-family: sans-serif;
     font-weight: 2000;
     margin-left: 75px;
+    border: solid white 2px ;
+    padding: 15px;
+    letter-spacing: 5px;
 }
 .navigation { 
     cursor: pointer;
