@@ -4,54 +4,77 @@
 }
 
 body { 
-    font-family: monospace;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    background: rgb(223, 221, 221);
 }
 
-html { 
-    scroll-behavior: smooth;
+:root { 
+    --clr-1: navy;
+    --clr-2: lightblue;
+    --clr-3: white; 
+    --clr-4: darkblue; 
+    --clr-5: rgb(136, 136, 136);
 }
-.container { 
-    width: 100%;
-    height:100%; 
-}
-
-
-.card{ 
-    scroll-snap-align: start;
-    width: 80vw;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    color: white;
-    font-size: 3em;
-    position: sticky;
+.heading { 
+    font-size: 65px;
+    font-family: sans-serif;
+    font-weight: 1000;
+    color: rgb(109, 43, 43);
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
+    width: 27%; }
+.container { 
+    padding: 2rem;
 }
 
-.card img { 
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    position: absolute;
-    filter: brightness(.8);
-    border-radius: 45px;
-    border: 5px solid black;
-
-}
-.cardContent { 
-    z-index: 2; 
+.sliderWrapper { 
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: -15px 15px 15px;
 }
 
-.pictures { 
-    scroll-snap-type: y mandatory;
+.slider{ 
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow:1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25) ;
+    border-radius: 0.5rem;
     
+}
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider img { 
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.sliderNav { 
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: tranlsateX(-50%);
+    z-index: 1;
+}
+
+.sliderNav a { 
+    opacity: 0.50;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #fff;
+    transition: opacity ease 250ms;
+}
+
+.sliderNav a:hover { 
+    opacity: 1;
 }
